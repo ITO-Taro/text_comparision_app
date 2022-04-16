@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+    <form method="post" action="/">
+        <label for="resume">Resume</label>
+        <input type="file" name="resume"/>
+        <br><br>
+        <label for="description">Job Description</label>
+        <input type="file" name="description"/>
+        <br><br>
+        <input type="submit">
+    </form>
+</div>
+{% endblock content %}
